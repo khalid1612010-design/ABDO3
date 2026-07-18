@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="المحامي عبدالله سيد المحروق - متخصص في القضايا المدنية والجنائية وتأسيس الشركات والاستشارات القانونية في القاهرة، مصر."
+    />
+    <meta
+      name="keywords"
+      content="محامي, استشارات قانونية, القضايا المدنية, القضايا الجنائية, تأسيس الشركات, عقود, القاهرة, مصر, لويير, lawyer egypt"
+    />
+    <meta name="author" content="Abdullah Sayed Elmahrouk" />
+    <meta name="theme-color" content="#0a0a0f" />
+    <title>عبدالله سيد المحروق | محامي متخصص</title>
+
+    <!-- Google Fonts: Arabic + English pairing -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main stylesheet (all site styles live in this one file) -->
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!-- =========================================================
+         FLOATING WHATSAPP BUTTON - always visible on every page
+    ========================================================== -->
+    <a
+      id="floating-whatsapp"
+      class="floating-whatsapp"
+      href="#"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="WhatsApp"
+    >
+      <span class="floating-whatsapp-text" data-i18n="floatingWhatsApp">تواصل عبر واتساب</span>
+      <span class="floating-whatsapp-icon">
+        <svg viewBox="0 0 32 32" width="22" height="22" fill="currentColor">
+          <path
+            d="M16.001 3C9.373 3 4 8.373 4 15c0 2.34.66 4.523 1.804 6.383L4 29l7.813-1.767A11.94 11.94 0 0 0 16.001 27C22.629 27 28 21.627 28 15S22.629 3 16.001 3Zm0 21.7c-1.99 0-3.85-.56-5.43-1.53l-.39-.23-4.64 1.05 1.08-4.52-.25-.4A9.63 9.63 0 0 1 5.3 15c0-5.9 4.8-10.7 10.7-10.7S26.7 9.1 26.7 15 21.9 24.7 16.001 24.7Zm5.86-8.02c-.32-.16-1.9-.94-2.19-1.05-.29-.11-.51-.16-.72.16-.21.32-.83 1.05-1.02 1.26-.19.21-.38.24-.7.08-.32-.16-1.34-.49-2.55-1.57-.94-.84-1.58-1.87-1.76-2.19-.19-.32-.02-.49.14-.65.14-.14.32-.38.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.74-.99-2.38-.26-.63-.53-.54-.72-.55-.19-.01-.4-.01-.61-.01-.21 0-.56.08-.85.4-.29.32-1.12 1.1-1.12 2.68 0 1.58 1.15 3.11 1.31 3.33.16.21 2.26 3.45 5.48 4.84.77.33 1.37.53 1.84.68.77.24 1.47.21 2.02.13.62-.09 1.9-.78 2.17-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37Z"
+          />
+        </svg>
+      </span>
+    </a>
+
+    <!-- =========================================================
+         NAVBAR
+    ========================================================== -->
+    <header id="navbar" class="navbar">
+      <div class="container navbar-inner">
+        <a href="#home" class="brand" data-scroll="#home">
+          <span class="brand-icon">⚖</span>
+          <span class="brand-text">
+            <span class="brand-name" data-i18n="footer.name">عبدالله سيد المحروق</span>
+            <span class="brand-role" data-i18n="footer.title">محامٍ ومستشار قانوني</span>
+          </span>
+        </a>
+
+        <nav class="nav-links" id="nav-links">
+          <a href="#home" class="nav-link" data-scroll="#home" data-i18n="nav.home">الرئيسية</a>
+          <a href="#about" class="nav-link" data-scroll="#about" data-i18n="nav.about">من نحن</a>
+          <a href="#services" class="nav-link" data-scroll="#services" data-i18n="nav.services">خدماتنا</a>
+          <a href="#experience" class="nav-link" data-scroll="#experience" data-i18n="nav.experience">خبراتنا</a>
+          <a href="#why-us" class="nav-link" data-scroll="#why-us" data-i18n="nav.whyUs">لماذا نحن</a>
+          <a href="#contact" class="nav-link" data-scroll="#contact" data-i18n="nav.contact">تواصل معنا</a>
+        </nav>
+
+        <div class="navbar-actions">
+          <button id="lang-toggle-btn" class="lang-toggle-btn" type="button" title="Toggle Language">
+            EN
+          </button>
+          <a
+            href="#contact"
+            class="btn btn-gold btn-desktop-only"
+            data-scroll="#contact"
+            data-i18n="nav.bookConsultation"
+            >احجز استشارة</a
+          >
+          <button id="mobile-menu-btn" class="mobile-menu-btn" type="button" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile dropdown menu -->
+      <nav id="mobile-menu" class="mobile-menu">
+        <a href="#home" class="mobile-nav-link" data-scroll="#home" data-i18n="nav.home">الرئيسية</a>
+        <a href="#about" class="mobile-nav-link" data-scroll="#about" data-i18n="nav.about">من نحن</a>
+        <a href="#services" class="mobile-nav-link" data-scroll="#services" data-i18n="nav.services">خدماتنا</a>
+        <a href="#experience" class="mobile-nav-link" data-scroll="#experience" data-i18n="nav.experience">خبراتنا</a>
+        <a href="#why-us" class="mobile-nav-link" data-scroll="#why-us" data-i18n="nav.whyUs">لماذا نحن</a>
+        <a href="#contact" class="mobile-nav-link" data-scroll="#contact" data-i18n="nav.contact">تواصل معنا</a>
+        <a href="#contact" class="btn btn-gold mobile-cta" data-scroll="#contact" data-i18n="nav.bookConsultation"
+          >احجز استشارة</a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <!-- =========================================================
+           HERO SECTION
+      ========================================================== -->
+      <section id="home" class="hero">
+        <div class="hero-bg-glow hero-bg-glow-1"></div>
+        <div class="hero-bg-glow hero-bg-glow-2"></div>
+
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <div class="badge">
+              <span class="badge-dot"></span>
+              <span data-i18n="footer.title">محامٍ ومستشار قانوني</span>
+            </div>
+
+            <h1 class="hero-title" data-i18n="hero.headline">
+              محامي متخصص في القضايا المدنية والجنائية وتأسيس الشركات
+            </h1>
+
+            <p class="hero-subtitle" data-i18n="hero.subheadline">
+              أكثر من 5 سنوات من الخبرة في تقديم الاستشارات القانونية وإدارة القضايا باحترافية
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-gold btn-lg" data-scroll="#contact" data-i18n="hero.ctaConsultation"
+                >احجز استشارة</a
+              >
+              <a href="#" class="btn btn-outline btn-lg js-whatsapp-link" target="_blank" rel="noopener noreferrer">
+                <span class="btn-icon">💬</span>
+                <span data-i18n="hero.ctaWhatsApp">تواصل عبر واتساب</span>
+              </a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <p class="hero-stat-value" data-i18n="about.stats.0.value">+5</p>
+                <p class="hero-stat-label" data-i18n="about.stats.0.label">سنوات خبرة</p>
+              </div>
+              <div class="hero-stat">
+                <p class="hero-stat-value" data-i18n="about.stats.1.value">+200</p>
+                <p class="hero-stat-label" data-i18n="about.stats.1.label">استشارة قانونية</p>
+              </div>
+              <div class="hero-stat">
+                <p class="hero-stat-value" data-i18n="about.stats.2.value">+200</p>
+                <p class="hero-stat-label" data-i18n="about.stats.2.label">عميل راضٍ</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image-wrap reveal">
+            <!-- Decorative emblem (no photo used) representing law & justice -->
+            <div class="hero-emblem-frame">
+              <div class="hero-emblem-ring hero-emblem-ring-outer"></div>
+              <div class="hero-emblem-ring hero-emblem-ring-inner"></div>
+              <div class="hero-emblem-core">
+                <span class="hero-emblem-icon">⚖</span>
+                <span class="hero-emblem-name" data-i18n="footer.name">عبدالله سيد المحروق</span>
+                <span class="hero-emblem-role" data-i18n="footer.title">محامٍ ومستشار قانوني</span>
+              </div>
+
+              <div class="hero-emblem-badge">
+                <p class="hero-stat-value" data-i18n="about.stats.0.value">+5</p>
+                <p class="hero-stat-label" data-i18n="about.stats.0.label">سنوات خبرة</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           ABOUT SECTION
+      ========================================================== -->
+      <section id="about" class="section about">
+        <div class="container about-grid">
+          <div class="reveal">
+            <span class="eyebrow" data-i18n="about.label">عن المكتب</span>
+            <h2 class="section-title" data-i18n="about.title">خبرة قانونية تبني الثقة</h2>
+            <p class="about-paragraph" data-i18n="about.paragraphs.0">
+              المحامي عبدالله سيد المحروق يمتلك أكثر من خمس سنوات من الخبرة العملية في مجال القانون، حيث قدم
+              استشارات قانونية متخصصة لعدد من الشركات والأفراد في مختلف المجالات.
+            </p>
+            <p class="about-paragraph" data-i18n="about.paragraphs.1">
+              يتمتع بخبرة واسعة في صياغة ومراجعة العقود، تسوية المنازعات، ضمان الالتزام بالأنظمة واللوائح، وتقديم
+              الحلول القانونية الفعالة التي تحمي مصالح العملاء وتضمن حقوقهم.
+            </p>
+
+            <div class="about-stats">
+              <div class="stat-card">
+                <p class="stat-value" data-i18n="about.stats.0.value">+5</p>
+                <p class="stat-label" data-i18n="about.stats.0.label">سنوات خبرة</p>
+              </div>
+              <div class="stat-card">
+                <p class="stat-value" data-i18n="about.stats.1.value">+200</p>
+                <p class="stat-label" data-i18n="about.stats.1.label">استشارة قانونية</p>
+              </div>
+              <div class="stat-card">
+                <p class="stat-value" data-i18n="about.stats.2.value">+200</p>
+                <p class="stat-label" data-i18n="about.stats.2.label">عميل راضٍ</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-services-card reveal">
+            <h3 class="about-services-title" data-i18n="services.label">خدماتنا القانونية</h3>
+            <ul class="about-services-list">
+              <li><span class="dot"></span><span data-i18n="services.items.0.title">القضايا المدنية</span></li>
+              <li><span class="dot"></span><span data-i18n="services.items.1.title">القضايا الجنائية</span></li>
+              <li><span class="dot"></span><span data-i18n="services.items.2.title">تأسيس الشركات</span></li>
+              <li><span class="dot"></span><span data-i18n="services.items.3.title">صياغة ومراجعة العقود</span></li>
+              <li><span class="dot"></span><span data-i18n="services.items.4.title">استشارات قانونية</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           SERVICES SECTION
+      ========================================================== -->
+      <section id="services" class="section services">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow" data-i18n="services.label">خدماتنا القانونية</span>
+            <h2 class="section-title" data-i18n="services.title">حلول قانونية شاملة بمعايير احترافية</h2>
+          </div>
+
+          <div class="services-grid">
+            <div class="service-card reveal">
+              <div class="service-icon">⚖</div>
+              <h3 class="service-title" data-i18n="services.items.0.title">القضايا المدنية</h3>
+              <p class="service-desc" data-i18n="services.items.0.description">
+                تمثيل كامل أمام المحاكم المدنية في جميع درجات التقاضي، بما في ذلك المنازعات العقارية والمالية
+                والإيجارية.
+              </p>
+              <div class="service-benefit">
+                <span data-i18n="services.items.0.benefit">نضمن لك الدفاع القانوني الفعّال لحماية حقوقك ومصالحك.</span>
+              </div>
+            </div>
+
+            <div class="service-card reveal">
+              <div class="service-icon">🛡</div>
+              <h3 class="service-title" data-i18n="services.items.1.title">القضايا الجنائية</h3>
+              <p class="service-desc" data-i18n="services.items.1.description">
+                الدفاع عن الموكلين في القضايا الجنائية بمهنية وسرية عالية، مع إعداد المذكرات والطعون القانونية.
+              </p>
+              <div class="service-benefit">
+                <span data-i18n="services.items.1.benefit">نهدف إلى الحفاظ على حقوقك والحصول على أفضل النتائج القانونية.</span>
+              </div>
+            </div>
+
+            <div class="service-card reveal">
+              <div class="service-icon">🏢</div>
+              <h3 class="service-title" data-i18n="services.items.2.title">تأسيس الشركات</h3>
+              <p class="service-desc" data-i18n="services.items.2.description">
+                إجراءات تأسيس الشركات لدى الهيئة العامة للاستثمار وخدمات التراخيص التجارية وفقاً للقوانين المعمول
+                بها.
+              </p>
+              <div class="service-benefit">
+                <span data-i18n="services.items.2.benefit">نبسط لك إجراءات التأسيس لتبدأ عملك بشكل قانوني سليم وسريع.</span>
+              </div>
+            </div>
+
+            <div class="service-card reveal">
+              <div class="service-icon">📄</div>
+              <h3 class="service-title" data-i18n="services.items.3.title">صياغة ومراجعة العقود</h3>
+              <p class="service-desc" data-i18n="services.items.3.description">
+                إعداد ومراجعة العقود التجارية والعمالية والتعاملات المدنية بصياغة قانونية دقيقة تحمي من المخاطر.
+              </p>
+              <div class="service-benefit">
+                <span data-i18n="services.items.3.benefit">تقليل النزاعات المستقبلية وضمان وضوح الشروط لجميع الأطراف.</span>
+              </div>
+            </div>
+
+            <div class="service-card reveal">
+              <div class="service-icon">💬</div>
+              <h3 class="service-title" data-i18n="services.items.4.title">استشارات قانونية</h3>
+              <p class="service-desc" data-i18n="services.items.4.description">
+                استشارات قانونية دقيقة وسريعة للأفراد والشركات في مختلف المجالات القانونية والتجارية.
+              </p>
+              <div class="service-benefit">
+                <span data-i18n="services.items.4.benefit">اتخاذ قرارات سليمة مبنية على أسس قانونية راسخة.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           EXPERIENCE SECTION
+      ========================================================== -->
+      <section id="experience" class="section experience">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow" data-i18n="experience.label">مسيرتنا المهنية</span>
+            <h2 class="section-title" data-i18n="experience.title">خبرات عملية في بيئات قانونية متنوعة</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item reveal">
+              <div class="timeline-icon">💼</div>
+              <div class="timeline-card">
+                <span class="timeline-period" data-i18n="experience.items.0.period">سابقاً</span>
+                <h3 class="timeline-role" data-i18n="experience.items.0.role">مدير التحقيقات</h3>
+                <p class="timeline-company" data-i18n="experience.items.0.company">نادي المطرية</p>
+                <p class="timeline-desc" data-i18n="experience.items.0.description">
+                  الإشراف على إدارة التحقيقات الداخلية ومتابعة الشؤون القانونية للنادي.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-icon">💼</div>
+              <div class="timeline-card">
+                <span class="timeline-period" data-i18n="experience.items.1.period">سابقاً</span>
+                <h3 class="timeline-role" data-i18n="experience.items.1.role">قائم بأعمال المستشار القانوني</h3>
+                <p class="timeline-company" data-i18n="experience.items.1.company">النقابة العامة للبترول</p>
+                <p class="timeline-desc" data-i18n="experience.items.1.description">
+                  تقديم الدعم القانوني ومتابعة الملفات القانونية الخاصة بالنقابة العامة للبترول.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-icon">💼</div>
+              <div class="timeline-card">
+                <span class="timeline-period" data-i18n="experience.items.2.period">سابقاً</span>
+                <h3 class="timeline-role" data-i18n="experience.items.2.role">مدير مكتب</h3>
+                <p class="timeline-company" data-i18n="experience.items.2.company">مكتب المستشار شريف منطاوي</p>
+                <p class="timeline-desc" data-i18n="experience.items.2.description">
+                  إدارة العمليات القانونية والإدارية للمكتب ومتابعة سير القضايا والملفات الموكلة.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-icon">💼</div>
+              <div class="timeline-card">
+                <span class="timeline-period" data-i18n="experience.items.3.period">حالياً</span>
+                <h3 class="timeline-role" data-i18n="experience.items.3.role">مستشار قانوني</h3>
+                <p class="timeline-company" data-i18n="experience.items.3.company">السراج مول</p>
+                <p class="timeline-desc" data-i18n="experience.items.3.description">
+                  تقديم الاستشارات القانونية ومتابعة العقود والشؤون القانونية الخاصة بالمول.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-icon">💼</div>
+              <div class="timeline-card">
+                <span class="timeline-period" data-i18n="experience.items.4.period">حالياً</span>
+                <h3 class="timeline-role" data-i18n="experience.items.4.role">مستشار قانوني</h3>
+                <p class="timeline-company" data-i18n="experience.items.4.company">شركة السعدني موتورز</p>
+                <p class="timeline-desc" data-i18n="experience.items.4.description">
+                  تقديم الاستشارات القانونية ومراجعة العقود التجارية الخاصة بالشركة.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-icon">💼</div>
+              <div class="timeline-card">
+                <span class="timeline-period" data-i18n="experience.items.5.period">حالياً</span>
+                <h3 class="timeline-role" data-i18n="experience.items.5.role">مستشار قانوني</h3>
+                <p class="timeline-company" data-i18n="experience.items.5.company">ارمي موتورز</p>
+                <p class="timeline-desc" data-i18n="experience.items.5.description">
+                  متابعة الشؤون القانونية والتعاقدية وتقديم الاستشارات القانونية اللازمة للشركة.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           WHY CHOOSE US SECTION
+      ========================================================== -->
+      <section id="why-us" class="section why-us">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow" data-i18n="whyUs.label">لماذا تختارنا</span>
+            <h2 class="section-title" data-i18n="whyUs.title">أسباب تمنحك الثقة في التعامل معنا</h2>
+          </div>
+
+          <div class="why-us-grid">
+            <div class="why-us-card reveal">
+              <div class="why-us-icon">🎯</div>
+              <h3 class="why-us-title" data-i18n="whyUs.items.0.title">خبرة عملية قوية</h3>
+              <p class="why-us-desc" data-i18n="whyUs.items.0.description">
+                سنوات من العمل في مجالات القانون المدني والجنائي والشركات تضمن لك خدمة مبنية على معرفة عميقة.
+              </p>
+            </div>
+            <div class="why-us-card reveal">
+              <div class="why-us-icon">🏛</div>
+              <h3 class="why-us-title" data-i18n="whyUs.items.1.title">تعامل مع جهات حكومية</h3>
+              <p class="why-us-desc" data-i18n="whyUs.items.1.description">
+                خبرة في التعامل مع الجهات الحكومية والهيئات الرقابية لتسريع إجراءات عملك.
+              </p>
+            </div>
+            <div class="why-us-card reveal">
+              <div class="why-us-icon">💡</div>
+              <h3 class="why-us-title" data-i18n="whyUs.items.2.title">حلول قانونية فعالة</h3>
+              <p class="why-us-desc" data-i18n="whyUs.items.2.description">
+                نهج عملي يركز على تحقيق النتائج وتقديم حلول قانونية ملموسة لقضاياك.
+              </p>
+            </div>
+            <div class="why-us-card reveal">
+              <div class="why-us-icon">⚡</div>
+              <h3 class="why-us-title" data-i18n="whyUs.items.3.title">سرعة واحترافية</h3>
+              <p class="why-us-desc" data-i18n="whyUs.items.3.description">
+                التزام بالمواعيد والسرية التامة في التعامل مع جميع الملفات القانونية.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           CONTACT SECTION
+      ========================================================== -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="eyebrow" data-i18n="contact.label">تواصل معنا</span>
+            <h2 class="section-title" data-i18n="contact.title">احصل على استشارتك القانونية الآن</h2>
+            <p class="section-subtitle" data-i18n="contact.subtitle">
+              املأ النموذج أدناه وسنقوم بالرد عليك في أقرب وقت، أو تواصل معنا مباشرة عبر واتساب.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <form id="contact-form" class="contact-form reveal">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" data-i18n="contact.form.name">الاسم</label>
+                  <input type="text" id="name" name="name" required data-i18n-placeholder="contact.form.name" />
+                </div>
+                <div class="form-group">
+                  <label for="phone" data-i18n="contact.form.phone">رقم الهاتف</label>
+                  <input type="tel" id="phone" name="phone" required data-i18n-placeholder="contact.form.phone" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="details" data-i18n="contact.form.details">تفاصيل القضية</label>
+                <textarea id="details" name="details" rows="5" required data-i18n-placeholder="contact.form.details"></textarea>
+              </div>
+              <button type="submit" class="btn btn-gold btn-lg">
+                <span class="btn-icon">📩</span>
+                <span data-i18n="contact.form.submit">إرسال عبر واتساب</span>
+              </button>
+            </form>
+
+            <div class="contact-info reveal">
+              <a href="#" class="contact-info-card js-whatsapp-link" target="_blank" rel="noopener noreferrer">
+                <span class="contact-info-icon">📞</span>
+                <span>
+                  <span class="contact-info-label" data-i18n="contact.info.phone">الهاتف</span>
+                  <span class="contact-info-value" id="phone-display">+20 11 4357 3038</span>
+                </span>
+              </a>
+              <a href="#" class="contact-info-card" id="email-link">
+                <span class="contact-info-icon">✉</span>
+                <span>
+                  <span class="contact-info-label" data-i18n="contact.info.email">البريد الإلكتروني</span>
+                  <span class="contact-info-value" id="email-display">elmahroky0298@gmail.com</span>
+                </span>
+              </a>
+              <div class="contact-info-card">
+                <span class="contact-info-icon">📍</span>
+                <span>
+                  <span class="contact-info-label" data-i18n="contact.info.location">الموقع</span>
+                  <span class="contact-info-value" data-i18n="contact.info.locationValue">القاهرة، جمهورية مصر العربية</span>
+                </span>
+              </div>
+
+              <a href="#" class="btn btn-outline btn-block js-whatsapp-link" target="_blank" rel="noopener noreferrer">
+                <span class="btn-icon">💬</span>
+                <span data-i18n="hero.ctaWhatsApp">تواصل عبر واتساب</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="brand" data-scroll="#home">
+            <span class="brand-icon">⚖</span>
+            <span class="brand-text">
+              <span class="brand-name" data-i18n="footer.name">عبدالله سيد المحروق</span>
+              <span class="brand-role" data-i18n="footer.title">محامٍ ومستشار قانوني</span>
+            </span>
+          </a>
+          <p class="footer-desc" data-i18n="meta.description">
+            المحامي عبدالله سيد المحروق - متخصص في القضايا المدنية والجنائية وتأسيس الشركات والاستشارات القانونية.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4 data-i18n="footer.quickLinks">روابط سريعة</h4>
+          <a href="#home" data-scroll="#home" data-i18n="nav.home">الرئيسية</a>
+          <a href="#about" data-scroll="#about" data-i18n="nav.about">من نحن</a>
+          <a href="#services" data-scroll="#services" data-i18n="nav.services">خدماتنا</a>
+          <a href="#experience" data-scroll="#experience" data-i18n="nav.experience">خبراتنا</a>
+          <a href="#why-us" data-scroll="#why-us" data-i18n="nav.whyUs">لماذا نحن</a>
+          <a href="#contact" data-scroll="#contact" data-i18n="nav.contact">تواصل معنا</a>
+        </div>
+
+        <div class="footer-contact">
+          <h4 data-i18n="footer.contact">بيانات التواصل</h4>
+          <a href="#" class="js-whatsapp-link" target="_blank" rel="noopener noreferrer">
+            📞 <span id="phone-display-2">+20 11 4357 3038</span>
+          </a>
+          <a href="#" id="email-link-2">✉ <span id="email-display-2">elmahroky0298@gmail.com</span></a>
+          <span>📍 <span data-i18n="contact.info.locationValue">القاهرة، جمهورية مصر العربية</span></span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          © <span id="footer-year">2026</span>
+          <span data-i18n="footer.name">عبدالله سيد المحروق</span> —
+          <span data-i18n="footer.rights">جميع الحقوق محفوظة</span>
+        </p>
+      </div>
+    </footer>
+
+    <!-- React mount point required by build tooling (renders nothing visible) -->
+    <div id="root" style="display: none"></div>
+
+    <!-- Site logic: translations, language toggle, animations, form -->
+    <script type="module" src="/src/script.js"></script>
+    <!-- Required app bootstrap (no-op component) -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
